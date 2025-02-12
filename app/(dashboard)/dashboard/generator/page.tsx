@@ -56,21 +56,6 @@ const PickUpLinesGenerator = () => {
           )}
         </CardContent>
       </Card>
-
-      {/* History Section */}
-      <Card className="w-full mt-4">
-        <CardHeader>
-          <CardTitle>History</CardTitle>
-          <CardDescription>
-            Your previously generated pickup lines
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <p className="text-muted-foreground">
-            No pickup lines generated yet.
-          </p>
-        </CardContent>
-      </Card>
     </div>
   );
 };

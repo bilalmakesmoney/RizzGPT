@@ -1,4 +1,3 @@
-import { SignOutButton } from "@clerk/nextjs";
 import { Home, Sparkles, MessageSquare, User, LogOut } from "lucide-react";
 import Link from "next/link";
 
@@ -29,12 +28,10 @@ const Sidebar = () => {
           text="AI Rizz Enhancer"
         />
 
-        <SignOutButton>
-          <div className="flex items-center space-x-3 p-2 hover:bg-[#CE84AD]/20 rounded-lg w-full h-full cursor-pointer">
-            <LogOut size={20} />
-            <span>Sign Out</span>
-          </div>
-        </SignOutButton>
+        <div className="flex items-center space-x-3 p-2 hover:bg-[#CE84AD]/20 rounded-lg w-full h-full cursor-pointer">
+          <LogOut size={20} />
+          <span>Sign Out</span>
+        </div>
       </nav>
     </div>
   );
